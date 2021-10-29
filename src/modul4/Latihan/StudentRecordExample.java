@@ -10,6 +10,6 @@ public class StudentRecordExample {
         ini.setName("Ini");
         nama.setName("Nama");
         System.out.println(wahyu.getName());
-        System.out.println("Hitung="+StudentRecord.getStudentCount());
+        System.out.println("Hitung = "+StudentRecord.getStudentCount());
     }
 }
