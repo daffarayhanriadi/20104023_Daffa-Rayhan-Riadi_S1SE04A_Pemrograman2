@@ -70,7 +70,7 @@ Hitung = 0
 
 Penjelasan : 
 
-Konsep yang digunakan pada soal 1 ini adalah Information Hiding, yakni menggunakan private untuk menyembunyikan informasi atribut saja.
+Konsep yang digunakan pada soal 1 ini adalah Information Hiding, yakni menggunakan private untuk menyembunyikan informasi atribut saja. Dan juga menggunakan encaptulation untuk menyembunyikan data sehingga aman tidak di bisa di akses oleh class lain.
 
 <hr>
 
