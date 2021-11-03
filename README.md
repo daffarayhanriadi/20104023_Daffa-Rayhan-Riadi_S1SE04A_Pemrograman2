@@ -11,7 +11,7 @@ private int nilai;
 ````
 * Encapsulation (Enkapsulasi)
 
-    Encapsulation adalah 
+    Encapsulation adalah untuk memastikan bahwa data "sensitif" disembunyikan dari pengguna. 
 ````java
 Contoh :
 
@@ -62,7 +62,7 @@ Soal :
 1. Student Record, Menganalisis dan menentukan konep apa saja yang digunakan (dari modul ini) serta mengapa hasil akhirnya seperti itu!
 
 Jawaban :
-1. [Jawaban Soal 1]()
+1. [Jawaban Soal 1](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul4/src/modul4/Latihan)
 ````java
 Wahyu
 Hitung = 0
@@ -75,4 +75,4 @@ Konsep yang digunakan pada soal 1 ini adalah Information Hiding, yakni menggunak
 <hr>
 
 ##Kesimpulan
-Pada pembahasan kali ini kami membahas mengenai Information Hiding, Encaptulation, Constructor, dan Overloading Construntor. Pertama Information Hiding adalah suatu cara untuk menyembunyikan atribut dan method dari suatu object dari object lain dengan cara menggunakan private. Kedua Encaptulation. Ketiga Constructor adalah method yang digunakan pertama kali saat object dibuat. Terakhir Overloading Constructor adalah suatu class yang dimana class tersebut memiliki lebih dari satu Constructor, dan cara membuat Overloading Constructor adalah dengan membuat parameter yang berbeda dari Constructor yang lain. 
+Pada pembahasan kali ini kami membahas mengenai Information Hiding, Encaptulation, Constructor, dan Overloading Construntor. Pertama Information Hiding adalah suatu cara untuk menyembunyikan atribut dan method dari suatu object dari object lain dengan cara menggunakan private. Kedua Encaptulation adalah untuk memastikan bahwa data "sensitif" disembunyikan dari pengguna.. Ketiga Constructor adalah method yang digunakan pertama kali saat object dibuat. Terakhir Overloading Constructor adalah suatu class yang dimana class tersebut memiliki lebih dari satu Constructor, dan cara membuat Overloading Constructor adalah dengan membuat parameter yang berbeda dari Constructor yang lain. 
