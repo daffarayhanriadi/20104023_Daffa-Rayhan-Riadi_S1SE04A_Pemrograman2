@@ -74,6 +74,6 @@ Konsep yang digunakan pada soal 1 ini adalah Information Hiding, yakni menggunak
 
 <hr>
 
-##Kesimpulan
+## Kesimpulan
 
 Pada pembahasan kali ini kami membahas mengenai Information Hiding, Encaptulation, Constructor, dan Overloading Construntor. Pertama Information Hiding adalah suatu cara untuk menyembunyikan atribut dan method dari suatu object dari object lain dengan cara menggunakan private. Kedua Encaptulation adalah untuk memastikan bahwa data "sensitif" disembunyikan dari pengguna.. Ketiga Constructor adalah method yang digunakan pertama kali saat object dibuat. Terakhir Overloading Constructor adalah suatu class yang dimana class tersebut memiliki lebih dari satu Constructor, dan cara membuat Overloading Constructor adalah dengan membuat parameter yang berbeda dari Constructor yang lain. 
