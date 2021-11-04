@@ -1,5 +1,5 @@
 # 20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2
-Mata Kuliah Praktikum Pemrograman 2
+## Daftar Isi
 
 * [Modul 2 : Dasar Pemrograman Java](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul2)
 
