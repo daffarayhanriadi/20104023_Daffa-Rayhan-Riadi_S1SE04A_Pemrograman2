@@ -1,4 +1,4 @@
-package com.daffa.pbo.modul5.latihan;
+package modul5.Latihan;
 
 public class Nasabah {
     String namaAwal;
