@@ -10,7 +10,19 @@ public class Nasabah {
         this.namaAkhir = namaAkhir;
     }
 
+    public Tabungan getTabungan() {
+        return tabungan;
+    }
+
     public void setTabungan(Tabungan tabungan) {
+
+    }
+
+    public void getNamaAwal() {
+
+    }
+
+    public void getNamaAkhir() {
 
     }
 }
