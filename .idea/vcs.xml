@@ -3,7 +3,11 @@
   <component name="VcsDirectoryMappings">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> parent of b414a63 (Delete .idea directory)
 =======
     <mapping directory="" vcs="Git" />
 >>>>>>> parent of b414a63 (Delete .idea directory)
