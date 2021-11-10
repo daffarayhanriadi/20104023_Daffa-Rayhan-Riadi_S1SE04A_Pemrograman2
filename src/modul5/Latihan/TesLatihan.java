@@ -1,15 +1,17 @@
 package modul5.Latihan;
-import perbankan.*;
 
-private class TesLatihan {
-    private static void main(String[] args) {
-        int tmp;
+import modul5.Latihan.Perbankan.Nasabah;
+import modul5.Latihan.Perbankan.Tabungan;
+
+class TesLatihan {
+     public static void main(String[] args) {
+        boolean tmp;
         boolean status;
         Nasabah nasabah=new Nasabah("Agus","Daryanto");
         System.out.println("Nasabah atas nama : " +
-                nasabah.getNamaAwal() + " " + nasabah.getNamaAkhir());
+        nasabah.getNamaAwal("Agus") + " " + nasabah.getNamaAkhir("Daryanto"));
         nasabah.setTabungan(new Tabungan(5000));
-        tmp=nasabah.getTabungan().ambilUang();
+        tmp=nasabah.getTabungan().ambilUang(0);
         System.out.println("Saldo awal : " + tmp);
         nasabah.getTabungan().simpanUang(3000);
         System.out.println("Jumlah uang yang disimpan : 3000");
@@ -32,6 +34,7 @@ private class TesLatihan {
             System.out.println(" gagal");
         nasabah.getTabungan().simpanUang(2000);
         System.out.println("Jumlah uang yang disimpan : 2000");
-        tmp=nasabah.getTabungan().ambilUang();
-        System.out.println("Saldo sekarang = " + tmp);} }
+        tmp=nasabah.getTabungan().ambilUang(0);
+        System.out.println("Saldo sekarang = " + tmp);
+     }
 }
