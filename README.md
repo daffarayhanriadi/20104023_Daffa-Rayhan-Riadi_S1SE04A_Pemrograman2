@@ -48,7 +48,7 @@ Soal :
 1. Mengimplementasikan UML class diagram dalam program untuk package perbankan
 
 Jawaban :
-1. [Jawaban Soal 1](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul3/src/Modul3/Latihan/Tabungan.java)
+1. [Jawaban Soal 1](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul5/src/modul5/Latihan)
 ````java
         Nasabah atas nama : Agus Daryanto 
         Saldo awal : 5000
