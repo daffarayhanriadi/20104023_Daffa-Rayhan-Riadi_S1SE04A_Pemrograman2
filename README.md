@@ -64,8 +64,4 @@ Jawaban :
 <hr>
 
 ## Kesimpulan
-Package dapat disarankan untuk digunakan seseorang dalam melakukan suatu pekerjaan project yang besar. Sehingga nantinya dapat mempermudah orang tersebut dalam memanegement letak-letak dari suatu class-class yang dibuat, karena sudah dikategorikan. Import Class, fungsi dari import class sendiri adalah agar program yang sedang dikerjakan hanya menggunakan class-class yang ada di dalam package tertentu/yang telah dikategorikan oleh orang yang melakukan project. Kemudian kata kunci this ini digunakan dalam sebuah class untuk menyatakan object yang sekarang.his dapat digunakan baik untuk data member maupun untuk function member, serta dapat juga digunakan untuk konstruktor. Adapun format penulisannya adalah :
-
-1. this.data_member => merujuk pada data member
-2. this.functio_member() => merujuk pada function member
-3. this() => merujuk pada konstruktor
+Package dapat disarankan untuk digunakan seseorang dalam melakukan suatu pekerjaan project yang besar. Sehingga nantinya dapat mempermudah orang tersebut dalam memanegement letak-letak dari suatu class-class yang dibuat, karena sudah dikategorikan. Import Class, fungsi dari import class sendiri adalah agar program yang sedang dikerjakan hanya menggunakan class-class yang ada di dalam package tertentu/yang telah dikategorikan oleh orang yang melakukan project. Kemudian kata kunci this ini digunakan dalam sebuah class untuk menyatakan object yang sekarang.his dapat digunakan baik untuk data member maupun untuk function member, serta dapat juga digunakan untuk konstruktor.
