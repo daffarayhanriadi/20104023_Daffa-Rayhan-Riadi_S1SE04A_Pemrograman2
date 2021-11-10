@@ -7,6 +7,10 @@ public class Tabungan {
         this.saldo = saldo;
     }
 
+    public int getSaldo() {
+        return saldo;
+    }
+
     public boolean ambilUang(int jumlah) {
         if (saldo - jumlah <= 0) {
             return false;

@@ -15,7 +15,7 @@ public class Nasabah {
     }
 
     public void setTabungan(Tabungan tabungan) {
-
+        this.tabungan = tabungan;
     }
 
     public String getNamaAwal(String namaAwal) {

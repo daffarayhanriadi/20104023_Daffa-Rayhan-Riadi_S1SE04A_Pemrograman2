@@ -5,13 +5,13 @@ import modul5.Latihan.Perbankan.Tabungan;
 
 class TesLatihan {
      public static void main(String[] args) {
-        boolean tmp;
+        int tmp;
         boolean status;
         Nasabah nasabah=new Nasabah("Agus","Daryanto");
         System.out.println("Nasabah atas nama : " +
         nasabah.getNamaAwal("Agus") + " " + nasabah.getNamaAkhir("Daryanto"));
         nasabah.setTabungan(new Tabungan(5000));
-        tmp=nasabah.getTabungan().ambilUang(0);
+        tmp=nasabah.getTabungan().getSaldo();
         System.out.println("Saldo awal : " + tmp);
         nasabah.getTabungan().simpanUang(3000);
         System.out.println("Jumlah uang yang disimpan : 3000");
@@ -34,7 +34,7 @@ class TesLatihan {
             System.out.println(" gagal");
         nasabah.getTabungan().simpanUang(2000);
         System.out.println("Jumlah uang yang disimpan : 2000");
-        tmp=nasabah.getTabungan().ambilUang(0);
+        tmp=nasabah.getTabungan().getSaldo();
         System.out.println("Saldo sekarang = " + tmp);
      }
 }
