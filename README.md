@@ -7,4 +7,4 @@
 
 * [Modul 4 : Dasar Pemrograman Berorientasi Objek](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul4)
 
-* [Modul 5 : Mengelola Class](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul5/README.md)
+* [Modul 5 : Mengelola Class](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul5)
