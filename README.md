@@ -2,65 +2,105 @@
 Mata Kuliah Praktikum Pemrograman 2
 
 ## Dasar Teori
-* Inheritance
+* Overloading
 
-Inheritance merupakan suatu konsep yang dimana sebuah class daoat memiliki class turunan. Class yang memiliki Class turunan biasanya dinamakan sebagai parent class. Sedangkan class turunan itu sendiri biasanya disebut dengan subclass atau child class. class turunan dapat mewarisi method, function, atribut dan sebagainya yang ada di dalam parent class nya.
-
-Didalam Java sendiri untuk mendeklarasikan suatu class menjadi child class adalah dengan menambahkan kata kunci extends setelah deklarasi nama class, kemudian diikuti dengan nama parent class nya.
+Overloading merupakan suatu keadaan dimana ada beberapa method dengan nama yang sama pada suatu class tetapi dengan parameter yang berbeda (mempunyai implementasi dan return value).Tujuan dibuatnya overloading yaitu memudahkan pengguna method dengan fungsi yang hampir sama.
 
 Contoh :
- ````java
- public class B extends A {
-...
+````java
+public void print( String temp ){
+    System.out.println("Name:" + name);
+    System.out.println("Address:" + address);
+    System.out.println("Age:" + age);
 }
- ````
+  
+public void print(double eGrade, double mGrade, doublesGrade){
+    System.out.println("Name:" + name);
+    System.out.println("Math Grade:" + mGrade);
+    System.out.println("English Grade:" + eGrade);
+    System.out.println("Science Grade:" + sGrade);
+}
+  ````
 
-Java sendiri hanya memperkenankan konsep single Inheritance, yang dimana suatu child class hanya dapat memiliki satu parent class saja. Karena dengan konsep ini, masalah pewarisan akan dapat diamati dengan mudah.
+Overloading ini dapat terjadi pada class yang sama atau pada suatu parent class dan subclass-nya. Overloading mempunyai ciri-ciri sebagai berikut :
 
-Suatu parent class dapat tidak mewariskan suatu member nya kepada child class, dengan cara mengatur access control dari member nya sendiri.
+1. Nama Constructor atau Method harus sama
+2. Daftar Parameter harus berbeda
+3. Return type boleh sama atau berbeda
 
-Access Control berdasarkan access nya dapat diakses pada :
-1. private     : class yang sama
-2. default     : class yang sama, package yang sama
-3. protected   : class yang sama, package yang sama, subclass/child class
-4. public      : class yang sama, package yang sama, subclass/child class, class manapun
 
-Kata kunci super dipakai untuk merujuk pada member dari parent class, sebagaimana kata kunci this yang dipakai untuk merujuk pada member dari class itu sendiri.
+* Overrriding
 
-Ada beberapa hal yang harus diingat ketika menggunakan pemanggil constuktor super :
-1. Pemanggilan super() **harus dijadikan pernyataan pertama dalam** constructor.
-2. Pemanggil super() hanya dapat digunakan dalam definisi constructor.
-3. Termasuk constructor this() dan pemanggil super() **tidak boleh terjadi dalam** constructor **yang sama**.
+Overriding tidak sama dengan overloading, Overriding merupakan mekanisme dimana sebuah metode dapat dideklarasikan ulang pada kelas turunannya. Overriding mempunyai ciri-ciri sebagai berikut :
+  
+1. Nama Constructor atau Method harus sama
+2. Daftar Parameter harus sama
+3. Return type harus sama
 
-Contoh :
-   ````java
-   public class Siswa {
-   private int nilai;
-   public setNilai(int nilai) {
-   this.nilai=nilai;
-      }
-   }
-   ````
+Berikut ini contoh terjadinya overriding dimana method RupiahVsDolar() pada class Sekarang meg-override method RupiahVsDolar() pada class Dulu.
 
+````java
+class Dulu { 
+    public String RupiahVsDolar() {
+        System.out.println("Rp 10.000");
+    }
+}
+class Sekarang extends Dulu { 
+    public String RupiahVsDolar() {
+        System.out.println("Rp 14.000");
+    }
+}
+  ````
+
+Method yang terkena override (overiden method) diharuskan tidak boleh mempunyai modifier yang lebih luas aksesnya dari method yang meng-overide (overriding method).
 <hr>
 
 ## Praktikum
-* Percobaan 1 :
+* Percobaan 1 (Overloading) :
 
-    * [Class Bentuk](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul6/src/modul6/percobaan/Bentuk.java)
-    * [Class Persegi](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul6/src/modul6/percobaan/Persegi.java)
-    * [Class PersegiTest](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul6/src/modul6/percobaan/PersegiTest.java)
+    * [Class A](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/A.java)
+    * [Class B](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/B.java)
+    * [Class C](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/C.java)
+    * [Class Overload](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/C.java)
 
   Hasil Run :
   ````java
-  Luas Super : 50
-  Luas : 39
+  Overload.myOverload(A a)
+  Overload.myOverload(B b)
+  ````
+  
+* Percobaan 2 (Overloading) :
+    * [Class Overload1](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Overload1.java)
+
+  Hasil Run :
+  ````java
+  short
+  ````
+  
+* Percobaan 3 (Overloading) : 
+    * [Class Mahasiswa](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Mahasiswa.java)
+    * [Class Main](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Main.java)
+
+  Hasil Run : 
+  ````java
+  Halo.. Aku Mahasiswa!
+  Haloo.. Namaku Daffa
   ````
 
+* Percobaan 4 (Overriding): 
+    * [Class Burung](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Burung.java)
+    * [Class Penguin](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Penguin.java)
+    * [Class Overriding](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Overriding.java)
+  
+  Hasil Run : 
+  ````java
+  Aku terbang!
+  Aku tidak bisa terbang!
+  ````
+  
 <hr>
 
 ## Kesimpulan
 
-Pada pembahasan kali ini kami membahas mengenai Inheritance, yang dimana Inheritance itu sendiri merupakan suatu konsep pewarisan, atau suatu class dapat memiliki class turunan. class yang memiliki class turunan biasanya disebut dengan parent class. Sedangkan untuk class turunan biasanya disebut dengan subclass atau childclass. child class dapat mewarisi apa saja yang ada di dalam parent class, tetapi bisa juga child class tidak dapat mewarisi sesuatu hal yang ada di dalam parent class, dikarenakan access controlnya.
-
+Pada pembahasan kali ini kami membahas mengenai Overloading dan Overriding, yang dimana ciri-ciri dari Overloading sendiri adalah penamaan dari Constructor atau Method nya harus sama, tetapi harus dengan Parameter yang berbeda, dan return type boleh sama atau bebeda. Sedangkan Overriding tidak sama dengan Overloading, ciri-ciri dari Overriding sendiri adalah penamaan Constructor atau Method harus sama, Parameter juga harus sama, dan return type juga harus sama.  
 
