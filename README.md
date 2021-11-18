@@ -55,7 +55,7 @@ Method yang terkena override (overiden method) diharuskan tidak boleh mempunyai 
 <hr>
 
 ## Praktikum
-* Percobaan 1 (Overloading) :
+* Percobaan 1 **Overloading** :
 
     * [Class A](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/A.java)
     * [Class B](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/B.java)
@@ -68,7 +68,7 @@ Method yang terkena override (overiden method) diharuskan tidak boleh mempunyai 
   Overload.myOverload(B b)
   ````
   
-* Percobaan 2 (Overloading) :
+* Percobaan 2 **Overloading** :
     * [Class Overload1](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Overload1.java)
 
   Hasil Run :
@@ -76,7 +76,7 @@ Method yang terkena override (overiden method) diharuskan tidak boleh mempunyai 
   short
   ````
   
-* Percobaan 3 (Overloading) : 
+* Percobaan 3 **Overloading** : 
     * [Class Mahasiswa](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Mahasiswa.java)
     * [Class Main](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Main.java)
 
@@ -86,7 +86,7 @@ Method yang terkena override (overiden method) diharuskan tidak boleh mempunyai 
   Haloo.. Namaku Daffa
   ````
 
-* Percobaan 4 (Overriding): 
+* Percobaan 4 **Overriding**: 
     * [Class Burung](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Burung.java)
     * [Class Penguin](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Penguin.java)
     * [Class Overriding](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul7/src/modul7/percobaan/Overriding.java)
