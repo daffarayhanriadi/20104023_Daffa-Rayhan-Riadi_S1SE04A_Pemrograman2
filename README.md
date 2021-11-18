@@ -2,7 +2,7 @@
 Mata Kuliah Praktikum Pemrograman 2
 
 ## Dasar Teori
-* Overloading
+* **Overloading**
 
 Overloading merupakan suatu keadaan dimana ada beberapa method dengan nama yang sama pada suatu class tetapi dengan parameter yang berbeda (mempunyai implementasi dan return value).Tujuan dibuatnya overloading yaitu memudahkan pengguna method dengan fungsi yang hampir sama.
 
@@ -28,7 +28,7 @@ Overloading ini dapat terjadi pada class yang sama atau pada suatu parent class 
 2. Daftar Parameter harus berbeda
 3. Return type boleh sama atau berbeda
 
-* Overrriding
+* **Overrriding**
 
 Overriding tidak sama dengan overloading, Overriding merupakan mekanisme dimana sebuah metode dapat dideklarasikan ulang pada kelas turunannya. Overriding mempunyai ciri-ciri sebagai berikut :
   
