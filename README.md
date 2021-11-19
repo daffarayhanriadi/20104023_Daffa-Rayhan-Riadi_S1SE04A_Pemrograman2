@@ -1,6 +1,8 @@
 # 20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2
 Mata Kuliah Praktikum Pemrograman 2
 
+---
+
 ## Dasar Teori
 * **Overloading**
 
@@ -27,6 +29,8 @@ Overloading ini dapat terjadi pada class yang sama atau pada suatu parent class 
 1. Nama Constructor atau Method harus sama
 2. Daftar Parameter harus berbeda
 3. Return type boleh sama atau berbeda
+
+---
 
 * **Overrriding**
 
