@@ -10,3 +10,5 @@
 * [Modul 5 : Mengelola Class](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul5)
 
 * [Modul 6 : Konsep Inheritance](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul6)
+
+* [Modul 7 : Overloading dan Overriding](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul7)
