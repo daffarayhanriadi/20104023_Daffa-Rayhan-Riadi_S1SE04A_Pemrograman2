@@ -6,7 +6,7 @@ Mata Kuliah Praktikum Pemrograman 2
 ## Dasar Teori
 * **Polymorphism**
 
-Polymorphism (polimorfisme) adalah kemampuan untuk mempunyai beberapa bentuk class yang berbeda. Polimorfisme ini terjadi pada saat suatu obyek bertipe parent class, akan tetapi pemanggilan constructornya melalui subclass. Misalnya deklarasi pernyataan berikut ini:
+Polymorphism (polimorfisme) adalah kemampuan untuk mempunyai beberapa bentuk class yang berbeda. Polimorfisme ini terjadi pada saat suatu obyek bertipe parent class, akan tetapi pemanggilan constructornya melalui subclass. Misalnya deklarasi pernyataan berikut ini :
 ````java
 Employee employee=new Manager();
 //<nama class> <variable bebas> = new <kontruktor>();
@@ -18,16 +18,12 @@ Dimana Manager() adalah constructor pada class Manages yang merupakan subclass d
 
 * **Virtual Method Invocation (VMI)**
 
-Bisa terjadi jika terjadi polimorfisme 
-dan overriding. Pada saat obyek yang sudah dibuat tersebut memanggil
-overridden method pada parent class, kompiler Java akan melakukan
-invocation (pemanggilan) terhadap overriding method pada subclass, dimana
-yang seharusnya dipanggil adalah overridden method. 
+Bisa terjadi jika terjadi polimorfisme dan overriding. Pada saat obyek yang sudah dibuat tersebut memanggil overridden method pada parent class, kompiler Java akan melakukan invocation (pemanggilan) terhadap overriding method pada subclass, dimanayang seharusnya dipanggil adalah overridden method. 
 
-    Berikut contoh terjadinya VMI:
-  * [Class Parent]()
-  * [Class Child]()
-  * [Class Tes]()
+Berikut contoh terjadinya VMI:
+  * [Class Parent](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul8/src/Modul8/Percobaan/Parent.java)
+  * [Class Child](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul8/src/Modul8/Percobaan/Child.java)
+  * [Class Tes](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul8/src/Modul8/Percobaan/Tes.java)
 
   Hasil Run : 
 ````java
@@ -37,9 +33,7 @@ Ini Class Child
 ---
 * **Polymorphic arguments**
   
-Polymorphic arguments adalah tipe suatu parameter yang menerima
-  suatu nilai yang bertipe subclass-nya. Berikut contoh dari polymorphics
-  arguments:
+Polymorphic arguments adalah tipe suatu parameter yang menerima suatu nilai yang bertipe subclass-nya. Berikut contoh dari polymorphics arguments :
 ````java
 class Pegawai {
 ...
@@ -56,10 +50,7 @@ Manajer(); Proses(man);
 }
 }
 ````
-Pernyataan instanceof sangat berguna untuk mengetahui tipe asal dari
-suatu polymorphic arguments. Untuk lebih jelasnya, misalnya dari contoh
-program sebelumnya, kita sedikit membuat modifikasi pada class Tes dan
-ditambah sebuah class baru Kurir, seperti yang tampak dibawah ini:
+Pernyataan instanceof sangat berguna untuk mengetahui tipe asal dari suatu polymorphic arguments. Untuk lebih jelasnya, misalnya dari contoh program sebelumnya, kita sedikit membuat modifikasi pada class Tes dan ditambah sebuah class baru Kurir, seperti yang tampak dibawah ini :
 ````java
 ...
 class Kurir extends Pegawai {
@@ -83,10 +74,7 @@ public class Tes {
     }
 }
 ````
-Seringkali pemakaian instanceof diikuti dengan casting object dari tipe
-parameter ke tipe asal. Misalkan saja program kita sebelumnya. Pada saat kita
-sudah melakukan instanceof dari tipe Manajer, kita dapat melakukan casting
-object ke tipe asalnya, yaitu Manajer. Caranya adalah seperti berikut:
+Seringkali pemakaian instanceof diikuti dengan casting object dari tipe parameter ke tipe asal. Misalkan saja program kita sebelumnya. Pada saat kita sudah melakukan instanceof dari tipe Manajer, kita dapat melakukan casting object ke tipe asalnya, yaitu Manajer. Caranya adalah seperti berikut :
 ````java
 ...
 if (peg instanceof Manajer) { Manajer man = (Manajer) peg;
@@ -99,9 +87,9 @@ if (peg instanceof Manajer) { Manajer man = (Manajer) peg;
 ## Praktikum
 * Percobaan 1 **Virtual Method Invocation** :
 
-    * [Class Pegawai]()
-    * [Class Gaji]()
-    * [Class VirtualDemo]()
+    * [Class Pegawai](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul8/src/Modul8/Latihan/Pegawai.java)
+    * [Class Gaji](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul8/src/Modul8/Latihan/Gaji.java)
+    * [Class VirtualDemo](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/blob/modul8/src/Modul8/Latihan/VirtualDemo.java)
 
 Hasil Run : 
 ````java
@@ -115,9 +103,11 @@ Memanggil mailCheck Berdasarkan Referensi Pegawai--
 Memeriksa kelas gaji dalam surat 
 Surat tertuju untuk Ini nama dengan gaji 2500.0
 ````
+
+Hasil Run diatas menunjukkan bahwa method atau constructor yang diambil adalah dari subclass itu sendiri sehingga ketika objek dari Class Pegawai menggunakan method mailCheck(), maka yang akan dipanggil adalah Method yang berada di dalam subclass Pegawai itu sendiri, hal ini disebut Virtual Method Invocation (VMI). 
 <hr>
 
 ## Kesimpulan
 
-Pada pembahasan kali ini kami membahas mengenai polimorfisme,
+Pada pembahasan kali ini kami membahas mengenai polimorfisme, polimorfisme sendiri adalah kemampuan untuk mempunyai beberapa bentuk class yang berbeda. Kemudian ada Virtual Method Invocation, yang dimana hal ini bisa terjadi ketika ada suatu kondisi polimorfisme tersebut memiliki overriding. Terakhir adalah Polymorphic arguments, Polymorphic arguments adalah tipe suatu parameter yang menerima suatu nilai yang bertipe subclass-nya
 
