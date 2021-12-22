@@ -14,3 +14,4 @@
 * [Modul 7 : Overloading dan Overriding](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul7)
 
 * [Modul 8 : Polimorfisme](https://github.com/Daffarr/20104023_Daffa-Rayhan-Riadi_S1SE04A_Pemrograman2/tree/modul8)
+* [Modul 9 : Exeption]()
