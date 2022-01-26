@@ -6,12 +6,12 @@ Mata Kuliah Praktikum Pemrograman 2
 ## Dasar Teori
 * **Polymorphism**
 
-Polymorphism (polimorfisme) adalah kemampuan untuk mempunyai beberapa bentuk class yang berbeda. Polimorfisme ini terjadi pada saat suatu obyek bertipe parent class, akan tetapi pemanggilan constructornya melalui subclass. Misalnya deklarasi pernyataan berikut ini :
+Polymorphism (polimorfisme) adalah kemampuan untuk mempunyai beberapa bentuk class yang berbeda. Polimorfisme ini terjadi pada saat suatu obyek bertipe parent class, akan tetapi pemanggilan constructornya melalui subclass Misalnya deklarasi pernyataan berikut ini :
 ````java
 Employee employee=new Manager();
 //<nama class> <variable bebas> = new <kontruktor>();
 ````
-Dimana Manager() adalah constructor pada class Manages yang merupakan subclass dari class Employee.
+Dimana Manager() adalah constructor pada class Manages yang merupakan subclass dari class Employee. Polymorphism sangat erat kaitannya dengan Inheritance.
 
 ---
 
